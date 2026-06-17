@@ -2,7 +2,7 @@
 
 RMDHTML ::= $(patsubst %.Rmd, %.html, $(wildcard *.Rmd))
 RMDR ::= $(patsubst %.Rmd, %.R, $(wildcard *.Rmd))
-CLASSDIR = linux.stat.uiowa.edu:/homepage/luke/SIBS-R/SIBS-WV-2025
+CLASSDIR = linux.stat.uiowa.edu:/homepage/luke/SIBS-R/SIBS-WV-2026
 
 all: $(RMDHTML) $(RMDR)
 	cd slides; $(MAKE)
